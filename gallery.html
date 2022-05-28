@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Camaro Gallery</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+	<link href="swiper.min.css" rel="stylesheet" type="text/css">
+<link href="car-gall.css" rel="stylesheet" type="text/css">
+
+
+</head>
+
+<body>
+	<aside class="logo"><img src="camaro images/logo.jpg" width="180px" height="120px"></aside>
+	<nav class="link"><a href ="Camaro2.html" >Home </a> <a href = "About.html" >About </a> <a href = "gallery.html" >Gallery</a> <a href = "Contacts.html" >Contacts </a> </nav>
+	<div class="contain"><br><strong>The All New Chevrolet Camaro 2019</strong></div>
+	<div class="separate"><b>Camaro 2019</b>Starting price at $25,000 up to $42,000 </div>
+	<div class="description"><h1>The legend continues</h1>
+<p>Five distinct trims. Four exhilarating powertrains. One legend. The 2020 Camaro is here to deliver <br> the kind of bold design, precision thrills and advanced performance technology <br>that can only be experienced behind the wheel of this iconic sports car.</p></div>
+	 <div class="swiper-container">
+    <div class="swiper-wrapper">
+		<div class="swiper-slide"><img src="camaro images/color1.jpg"></div>
+		<div class="swiper-slide"><img src="camaro images/color2.jpg"></div>
+		<div class="swiper-slide"><img src="camaro images/color3.jpg"></div>
+		<div class="swiper-slide"><img src="camaro images/color4.jpg"></div>
+		<div class="swiper-slide"><img src="camaro images/color5.jpg"></div>
+		<div class="swiper-slide"><img src="camaro images/color6.jpg"></div>
+		<div class="swiper-slide"><img src="camaro images/color7.jpg"></div>
+        <div class="swiper-slide"><img src="camaro images/color8.jpg"></div>
+		<div class="swiper-slide"><img src="camaro images/color9.jpg"></div>
+    </div>
+    
+    <div class="swiper-pagination"></div>
+  </div>
+<script src="swiper.min.js"></script>  
+	<script>
+    var swiper = new Swiper('.swiper-container', {
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows : true,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
+  </script>
+	<div class ="footer">
+	  <p><strong>© Chevrolet Camaro 2019.</strong></p><p>Copyright and Trademark| Site map | Privacy </p></div>
+	</body>
+</html>

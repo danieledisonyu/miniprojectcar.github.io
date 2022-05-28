@@ -1,0 +1,68 @@
+@charset "utf-8";
+.link
+{
+	background-color: #000000;
+	padding: 50px;
+}
+a:link, a:visited 
+{
+  font-size: 25px;;
+  color: white;
+  padding: 8px 15px;
+  text-decoration: none;
+}
+a:hover, a:active
+{
+  background-color: skyblue;
+}
+.logo
+{
+  float: left;
+	margin: auto;
+}
+ body {
+      background: #000000;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color:#000;
+      margin: 0;
+      padding: 0;
+    }
+   
+.description
+{
+	padding: 50px;
+	text-align: center;
+	font-size: 30px;
+	font-style: italic;
+	color: #FAF9F9;
+	text-shadow: 0px 0px;
+	text-transform: capitalize;
+}
+
+.slider
+{
+	width: 80%;
+	height: 600px;
+	background-attachment: fixed;
+	background: url(camaro%20images/camaro1.jpg);	
+	margin: 50px auto;
+	animation: slide 20s infinite;
+}
+@keyframes slide
+{
+	25%{background: url("camaro images/camaro2.jpg");}
+	50%{background: url("camaro images/camaro3.jpg");}
+	75%{background: url("camaro images/camaro 4.jpg");}
+	100%{background: url("camaro images/camaro5.jpg");}
+	
+}
+
+.footer
+{
+	width: 100%;	
+	height: 100px;
+	border: 2px solid black;
+	background:rgba(246,246,246,0.5);
+	text-align:center;
+}
